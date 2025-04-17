@@ -1,7 +1,7 @@
-#Segmentación de Imágenes por Color
+# Segmentación de Imágenes por Color
 Este cuaderno de Google Colab permite realizar una segmentación de imágenes basada en el color. El objetivo es aislar objetos o regiones de una imagen que tengan un color similar al seleccionado.
 
-##Funcionalidades
+## Funcionalidades
 El cuaderno incluye las siguientes funcionalidades:
 * Selección de Color Base: Permite elegir un color base para la segmentación utilizando tres deslizadores para ajustar los pesos de los canales Rojo, Verde y Azul.
 * Ajuste de Tolerancia: Permite controlar el rango de colores que se considerarán similares al color base, mediante un deslizador de tolerancia.
@@ -10,7 +10,7 @@ El cuaderno incluye las siguientes funcionalidades:
 * Segmentación con Borde: Permite visualizar la imagen segmentada con un borde de color alrededor de la región segmentada.
 * Control de Color del Borde: Permite seleccionar el color del borde que se dibuja alrededor de la región segmentada.
 
-##Cómo Utilizar
+## Cómo Utilizar
 1 Cargar la Imagen: Asegúrate de cargar la imagen que deseas segmentar en el cuaderno de Colab.
 2 Interactuar con los Controles: Utiliza los controles interactivos para ajustar los parámetros de la segmentación.
   * Los deslizadores "peso_rojo", "peso_verde" y "peso_azul" permiten seleccionar el color base para la segmentación.
@@ -19,7 +19,7 @@ El cuaderno incluye las siguientes funcionalidades:
   * El desplegable "Color Borde" permite seleccionar el color del borde.
 3 Observar los Resultados: El cuaderno mostrará la imagen original, la máscara binaria y la imagen segmentada con el borde, permitiéndote evaluar el resultado de la segmentación.
 
-##Requisitos
+## Requisitos
 * Google Colab
 * OpenCV (cv2)
 * Numpy
