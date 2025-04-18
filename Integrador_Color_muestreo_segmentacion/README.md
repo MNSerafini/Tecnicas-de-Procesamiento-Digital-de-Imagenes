@@ -1,8 +1,8 @@
-#Ejercicio Integrador - Procesamiento de Imágenes
+# Ejercicio Integrador - Procesamiento de Imágenes
 
 Este cuaderno de Google Colab contiene un ejercicio integrador que aplica varias técnicas de procesamiento de imágenes utilizando la biblioteca OpenCV. El ejercicio permite a los usuarios experimentar con el filtrado de imágenes, la detección de bordes y la segmentación de color.
 
-#Funcionalidades
+## Funcionalidades
 
 El cuaderno incluye las siguientes funcionalidades:
   * Filtrado de Imagen: Permite aplicar filtros de suavizado a la imagen, como el filtro Gaussiano, para reducir el ruido.
@@ -10,7 +10,7 @@ El cuaderno incluye las siguientes funcionalidades:
   * Segmentación de Color: Permite segmentar la imagen por color, aislando regiones que coinciden con un rango de color definido por el usuario.
   * Control Interactivo: El cuaderno proporciona controles interactivos (sliders y desplegables) para ajustar los parámetros de cada una de estas funcionalidades en tiempo real.
 
-#Cómo Utilizar
+## Cómo Utilizar
 
 Se debe correr el cuaderno desde el entorno de Google Colab. 
 
@@ -20,7 +20,7 @@ Se debe correr el cuaderno desde el entorno de Google Colab.
     
   * Interactuar con los Controles: Utiliza los controles interactivos para experimentar con los diferentes parámetros de procesamiento de imágenes. Los resultados se mostrarán en tiempo real en el cuaderno.
    
-#Requisitos
+## Requisitos
   * Python implementation: CPython
   * Python version       : 3.11.12
   * IPython version      : 7.34.0
@@ -32,6 +32,6 @@ Se debe correr el cuaderno desde el entorno de Google Colab.
   * PIL       : 11.1.0
   * ipywidgets: 7.7.1
 
-#Instrucciones Adicionales
+## Instrucciones Adicionales
 * Asegúrate de tener una imagen cargada en el cuaderno para poder experimentar con las funcionalidades.
 * El cuaderno está diseñado para ser interactivo, así que no dudes en jugar con los controles para ver cómo afectan los resultados.
