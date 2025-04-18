@@ -11,18 +11,24 @@ El cuaderno incluye las siguientes funcionalidades:
 * Control de Color del Borde: Permite seleccionar el color del borde que se dibuja alrededor de la región segmentada.
 
 ## Cómo Utilizar
-1 Cargar la Imagen: Asegúrate de cargar la imagen que deseas segmentar en el cuaderno de Colab.
-2 Interactuar con los Controles: Utiliza los controles interactivos para ajustar los parámetros de la segmentación.
+1 Correr el cuaderno en ul entorno de Google Colab
+2 Cargar la Imagen: Asegúrate de cargar la imagen que deseas segmentar en el cuaderno de Colab.
+3 Interactuar con los Controles: Utiliza los controles interactivos para ajustar los parámetros de la segmentación.
   * Los deslizadores "peso_rojo", "peso_verde" y "peso_azul" permiten seleccionar el color base para la segmentación.
   * Seleccionar los valores de cada canal para realizar la segmentacion
   * El deslizador "Tolerancia" permite ajustar la tolerancia del color.
   * El desplegable "Color Borde" permite seleccionar el color del borde.
-3 Observar los Resultados: El cuaderno mostrará la imagen original, la máscara binaria y la imagen segmentada con el borde, permitiéndote evaluar el resultado de la segmentación.
+4 Observar los Resultados: El cuaderno mostrará la imagen original, la máscara binaria y la imagen segmentada con el borde, permitiéndote evaluar el resultado de la segmentación.
 
 ## Requisitos
-* Google Colab
-* OpenCV (cv2)
-* Numpy
-* Matplotlib
+* Python implementation: CPython
+* Python version       : 3.11.12
+* IPython version      : 7.34.0
+* ipywidgets: 7.7.1
+* numpy     : 2.0.2
+* re        : 2.2.1
+* IPython   : 7.34.0
+* matplotlib: 3.10.0
+* cv2       : 4.11.0
 
 Este cuaderno es una herramienta útil para experimentar con la segmentación de imágenes por color y comprender cómo los parámetros de color y tolerancia afectan el resultado.
