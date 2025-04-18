@@ -14,17 +14,22 @@ El cuaderno incluye las siguientes funcionalidades:
 
 ## Cómo Utilizar
 
-1.  **Cargar la Imagen:** Asegúrate de cargar la imagen que deseas procesar en el cuaderno de Colab.
-2.  **Interactuar con los Controles:** Utiliza los desplegables y el checkbox para ajustar los parámetros:
+1.  Correr el cuaderno en el entorno de Google Colab.
+2.  **Cargar la Imagen:** Asegúrate de cargar la imagen que deseas procesar en el cuaderno de Colab.
+3.  **Interactuar con los Controles:** Utiliza los desplegables y el checkbox para ajustar los parámetros:
     * **Canal:** Selecciona el canal de color a procesar (Rojo, Verde o Azul).
     * **Muestreo (p):** Elige el factor de muestreo.
     * **Cuantific. (q):** Elige la cantidad de niveles de cuantización.
     * **Muestreo + Cuantificación:** Activa esta opción para aplicar ambos procesos simultáneamente.
-3.  **Observar los Resultados:** El cuaderno mostrará la imagen original y la imagen resultante después de aplicar el muestreo y/o la cuantización, permitiéndote evaluar el impacto de los parámetros seleccionados.
+4.  **Observar los Resultados:** El cuaderno mostrará la imagen original y la imagen resultante después de aplicar el muestreo y/o la cuantización, permitiéndote evaluar el impacto de los parámetros seleccionados.
 
 ## Requisitos
 
-* Google Colab
-* OpenCV (`cv2`)
-* Numpy
-* Matplotlib
+* Python implementation: CPython
+* Python version       : 3.11.12
+* IPython version      : 7.34.0
+* ipywidgets: 7.7.1
+* matplotlib: 3.10.0
+* cv2       : 4.11.0
+* re        : 2.2.1
+* numpy     : 2.0.2
