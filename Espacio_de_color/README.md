@@ -16,19 +16,24 @@ El cuaderno incluye las siguientes funcionalidades:
 
 ## Cómo Utilizar
 
-1.  **Cargar la Imagen:** Asegúrate de cargar la imagen que deseas analizar en el cuaderno de Colab.
-2.  **Interactuar con los Controles:** Utiliza los sliders y checkboxes para ajustar los parámetros de las diferentes funcionalidades.
+1.  Correr el cuaderno en el entorno de Google Colab 
+2.  **Cargar la Imagen:** Asegúrate de cargar la imagen que deseas analizar en el cuaderno de Colab.
+3.  **Interactuar con los Controles:** Utiliza los sliders y checkboxes para ajustar los parámetros de las diferentes funcionalidades.
     * Los sliders `x1`, `y1`, `x2`, `y2` permiten seleccionar la región de interés de la imagen.
     * El checkbox "Convertir a RGB" activa la conversión de la imagen a RGB.
     * El checkbox "Mapas de Color" aplica un mapa de color a la imagen.
     * El checkbox "Aplicar Canny" activa la detección de bordes de Canny, y los sliders "Umbral\_Inf" y "Umbral\_Sup" ajustan los umbrales del algoritmo.
     * El checkbox "Aplicar Gauss" activa el filtro Gaussiano, y los sliders "kernel" y "sigma" ajustan el tamaño del kernel y la desviación estándar del filtro.
     * El dropdown "Border Type" permite seleccionar el tipo de borde para el filtro Gaussiano.
-3.  **Observar los Resultados:** Los resultados del procesamiento y análisis se mostrarán en la salida del cuaderno, incluyendo la imagen procesada y las estadísticas de los canales de color[cite: 32].
+4.  **Observar los Resultados:** Los resultados del procesamiento y análisis se mostrarán en la salida del cuaderno, incluyendo la imagen procesada y las estadísticas de los canales de color[cite: 32].
 
 ## Requisitos
 
-* Google Colab
-* OpenCV (`cv2`)
-* Numpy
-* Matplotlib (para visualización de mapas de color)
+* Python implementation: CPython
+* Python version       : 3.11.12
+* ipywidgets: 7.7.1
+* numpy     : 2.0.2
+* re        : 2.2.1
+* IPython   : 7.34.0
+* matplotlib: 3.10.0
+* cv2       : 4.11.0
