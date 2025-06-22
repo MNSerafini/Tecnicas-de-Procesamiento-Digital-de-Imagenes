@@ -2,7 +2,7 @@
 
 Este cuaderno de Google Colab compara diferentes métodos de detección de bordes en imágenes, incluyendo los métodos clásicos de Sobel y Prewitt, las funcionalidades de detección de bordes de Scikit-Image y un enfoque basado en un modelo de detección de objetos (YOLOv5).
 
-##Funcionalidades
+## Funcionalidades
 
 El cuaderno incluye las siguientes funcionalidades:
 * Carga de Imagen: Permite cargar una imagen para realizar la detección de bordes.
