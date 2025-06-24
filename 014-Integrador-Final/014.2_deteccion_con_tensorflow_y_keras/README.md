@@ -4,9 +4,9 @@ Esta carpeta contiene una serie de cuadernos de Jupyter (o Colab) que exploran l
 
 ## Índice de Contenidos
 
-* [014.2.1_deteccion_tensorflow_keras_letras](13.2.1_deteccion_tensorflow_keras_letras.ipynb)
-* [014.2.2_deteccion_tensorflow_keras_palabras](13.2.2_deteccion_tensorflow_keras_palabras.ipynb)
-* [014.2.3_test_deteccion_tensorflow_keras](13.2.3_test_deteccion_tensorflow_keras.ipynb)
+* [014.2.1_deteccion_tensorflow_keras_letras](014.2.1_deteccion_tensorflow_keras_letras.ipynb)
+* [014.2.2_deteccion_tensorflow_keras_palabras](014.2.2_deteccion_tensorflow_keras_palabras.ipynb)
+* [014.2.3_test_deteccion_tensorflow_keras](014.2.3_test_deteccion_tensorflow_keras.ipynb)
 
 ---
 
