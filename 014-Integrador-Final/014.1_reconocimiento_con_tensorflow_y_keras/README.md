@@ -9,7 +9,7 @@ Esta carpeta contiene un cuaderno de Jupyter (o Colab) dedicado a un proyecto in
 
 ---
 
-### 13.1.1_proyecto_ocr_reconocimiento.ipynb
+### 013.1.1_proyecto_ocr_reconocimiento.ipynb
 
 **Descripción:**
 Este cuaderno presenta un **Proyecto de OCR** que cubre los pasos esenciales para implementar un sistema de reconocimiento de texto a partir de imágenes. Incluye la importación de las librerías necesarias, la preparación y uso de un dataset específico (`data_ocr`), y la posible construcción o adaptación de un modelo de Deep Learning para la tarea de reconocimiento. El cuaderno también demuestra la creación de una **interfaz de usuario con Gradio** para permitir la carga de imágenes y la visualización del texto reconocido, facilitando la interacción con el modelo.
