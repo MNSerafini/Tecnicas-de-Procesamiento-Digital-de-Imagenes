@@ -4,50 +4,50 @@ Esta carpeta sirve como el repositorio central para el **Trabajo Práctico Integ
 
 ## Índice de Contenidos por Subcarpeta
 
-* [13.1_Reconocimiento_con_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.1_reconocimiento_con_tensorflow_y_keras)
-* [13.2_Detector_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.2_deteccion_con_tensorflow_y_keras)
-* [13.3_Detector_YOLO](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.3_deteccion_con_yolo)
-* [13.4_Detector_TensorFlow_Object_Detection_API](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.4_tensorflow_object_detection_api)
+* [014.1_Reconocimiento_con_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.1_reconocimiento_con_tensorflow_y_keras)
+* [014.2_Detector_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.2_deteccion_con_tensorflow_y_keras)
+* [014.3_Detector_YOLO](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.3_deteccion_con_yolo)
+* [014.4_Detector_TensorFlow_Object_Detection_API](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.4_tensorflow_object_detection_api)
 
 ---
 
 ### Contenido de las Subcarpetas
 
-#### **13.1_OCR_Clasificador**
+#### **014.1_OCR_Clasificador**
 
 Esta subcarpeta contiene el cuaderno principal del **Proyecto de OCR (Reconocimiento Óptico de Caracteres)**. Se enfoca en la implementación completa de un sistema de reconocimiento de texto a partir de imágenes, abarcando desde la importación de librerías y la gestión de datasets hasta la aplicación de modelos de Deep Learning para el reconocimiento de texto. También se incluye la creación de una interfaz interactiva con Gradio para facilitar la interacción con el modelo.
 
 **Cuadernos principales:**
-* `13.1.1_proyecto_ocr_reconocimiento.ipynb`: Desarrollo de un sistema de OCR con Gradio.
+* `014.1.1_proyecto_ocr_reconocimiento.ipynb`: Desarrollo de un sistema de OCR con Gradio.
 
-#### **13.2_Detector_TF_Keras**
+#### **014.2_Detector_TF_Keras**
 
 Esta subcarpeta explora la **detección de caracteres y palabras** en imágenes utilizando el framework **TensorFlow y Keras**. Incluye cuadernos dedicados a la detección de caracteres individuales, la detección de palabras completas y una herramienta para probar los modelos entrenados, con integración de interfaces Gradio para visualización.
 
 **Cuadernos principales:**
-* `13.2.1_deteccion_tensorflow_keras_letras.ipynb`: Detección de caracteres individuales con TF y Keras.
-* `13.2.2_deteccion_tensorflow_keras_palabras.ipynb`: Detección de palabras con TF y Keras.
-* `13.2.3_test_deteccion_tensorflow_keras.ipynb`: Cuaderno para probar y demostrar modelos de detección con TF y Keras.
+* `014.2.1_deteccion_tensorflow_keras_letras.ipynb`: Detección de caracteres individuales con TF y Keras.
+* `014.2.2_deteccion_tensorflow_keras_palabras.ipynb`: Detección de palabras con TF y Keras.
+* `014.2.3_test_deteccion_tensorflow_keras.ipynb`: Cuaderno para probar y demostrar modelos de detección con TF y Keras.
 
-#### **13.3_Detector_YOLO**
+#### **014.3_Detector_YOLO**
 
 Esta subcarpeta se centra en la **detección de texto para OCR** utilizando la arquitectura de modelos **YOLOv8**. Los cuadernos cubren la preparación de datos y el entrenamiento de modelos para la detección de letras y palabras, así como un cuaderno para probar y demostrar la efectividad de un modelo YOLO entrenado en la localización de texto en imágenes.
 
 **Cuadernos principales:**
-* `13.3.1_deteccion_con_yolo_v1.ipynb`: Detector de texto basado en YOLOv8 (versión inicial).
-* `13.3.2_deteccion_yolo_por_letras.ipynb`: Detección de caracteres individuales con YOLOv8.
-* `13.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb`: Detección de palabras mejorada con YOLOv8.
-* `13.3.4_test_deteccion_yolo.ipynb`: Cuaderno para probar y demostrar modelos de detección YOLOv8.
+* `014.3.1_deteccion_con_yolo_v1.ipynb`: Detector de texto basado en YOLOv8 (versión inicial).
+* `014.3.2_deteccion_yolo_por_letras.ipynb`: Detección de caracteres individuales con YOLOv8.
+* `014.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb`: Detección de palabras mejorada con YOLOv8.
+* `014.3.4_test_deteccion_yolo.ipynb`: Cuaderno para probar y demostrar modelos de detección YOLOv8.
 
-#### **13.4_Detector_TensorFlow_OD_API**
+#### **14.4_Detector_TensorFlow_OD_API**
 
 Esta subcarpeta contiene cuadernos que guían en el uso de la **TensorFlow Object Detection API** para la detección de objetos. Abarca desde la crucial generación de datos en formato `TF Records` hasta el entrenamiento, exportación y prueba de modelos personalizados de detección. También se incluyen los archivos de configuración esenciales para definir la arquitectura y los parámetros de entrenamiento de los modelos.
 
 **Cuadernos principales:**
-* `13.4.1_entrenamiento_tf_od_api.ipynb`: Entrenamiento de modelos con TensorFlow Object Detection API.
-* `13.4.2_generador_tf_records.ipynb`: Generación de TF Records para entrenamiento de modelos.
-* `13.4.3_generador_tf_records_v2.ipynb`: Generación mejorada de TF Records.
-* `13.4.4_test_model_tensorflow_od_api.ipynb`: Cuaderno para probar modelos de detección entrenados con TensorFlow Object Detection API.
+* `014.4.1_entrenamiento_tf_od_api.ipynb`: Entrenamiento de modelos con TensorFlow Object Detection API.
+* `014.4.2_generador_tf_records.ipynb`: Generación de TF Records para entrenamiento de modelos.
+* `014.4.3_generador_tf_records_v2.ipynb`: Generación mejorada de TF Records.
+* `014.4.4_test_model_tensorflow_od_api.ipynb`: Cuaderno para probar modelos de detección entrenados con TensorFlow Object Detection API.
 
 ---
 
