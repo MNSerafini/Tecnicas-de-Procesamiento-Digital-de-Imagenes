@@ -4,14 +4,14 @@ Esta carpeta contiene una serie de cuadernos de Jupyter (o Colab) que exploran l
 
 ## Índice de Contenidos
 
-* [014.3.1_deteccion_con_yolo_v1](13.3.1_deteccion_con_yolo_v1.ipynb)
-* [014.3.2_deteccion_yolo_por_letras](13.3.2_deteccion_yolo_por_letras.ipynb)
-* [014.3.3_deteccioon_yolo_por_palabras_v2_mejorado](13.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb)
-* [014.3.4_test_deteccion_yolo](13.3.4_test_deteccion_yolo.ipynb)
+* [14.3.1_deteccion_con_yolo_v1](13.3.1_deteccion_con_yolo_v1.ipynb)
+* [14.3.2_deteccion_yolo_por_letras](13.3.2_deteccion_yolo_por_letras.ipynb)
+* [14.3.3_deteccioon_yolo_por_palabras_v2_mejorado](13.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb)
+* [14.3.4_test_deteccion_yolo](13.3.4_test_deteccion_yolo.ipynb)
 
 ---
 
-### 13.3.1_deteccion_con_yolo_v1.ipynb
+### 14.3.1_deteccion_con_yolo_v1.ipynb
 
 **Descripción:**
 Este cuaderno introduce un **detector de texto para OCR** basado en la arquitectura **YOLOv8**. El objetivo es identificar la presencia de texto en una imagen y, potencialmente, extraer líneas de texto y las cajas delimitadoras de los caracteres que las componen. El cuaderno detalla los pasos para la preparación del dataset, incluyendo el reescalado de imágenes y cajas delimitadoras, la conversión al formato esperado por YOLO, y la configuración necesaria para el entrenamiento de un modelo YOLOv8.
@@ -24,7 +24,7 @@ Este cuaderno introduce un **detector de texto para OCR** basado en la arquitect
 
 ---
 
-### 13.3.2_deteccion_yolo_por_letras.ipynb
+### 14.3.2_deteccion_yolo_por_letras.ipynb
 
 **Descripción:**
 Este cuaderno profundiza en la **detección de texto por caracteres individuales** utilizando un modelo basado en **YOLOv8** para OCR. Aborda la importación de librerías, la preparación específica de datos para la detección de letras y el entrenamiento del modelo YOLO para esta tarea. Incluye la visualización de métricas de entrenamiento, como las curvas de mAP (mean Average Precision) y de pérdida, para evaluar el rendimiento del modelo en la detección a nivel de carácter.
@@ -37,7 +37,7 @@ Este cuaderno profundiza en la **detección de texto por caracteres individuales
 
 ---
 
-### 13.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb
+### 14.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb
 
 **Descripción:**
 Este cuaderno presenta una versión mejorada (v2) del **detector de texto por palabras** basado en **YOLOv8**. El objetivo es detectar la presencia de texto y, en particular, identificar y delimitar palabras completas en una imagen para fines de OCR. Se enfoca en la preparación avanzada de datos y el entrenamiento de un modelo YOLOv8 optimizado para esta tarea, buscando mejorar la precisión en la localización de palabras y, posiblemente, en la extracción de las cajas de caracteres dentro de ellas.
@@ -50,7 +50,7 @@ Este cuaderno presenta una versión mejorada (v2) del **detector de texto por pa
 
 ---
 
-### 13.3.4_test_deteccion_yolo.ipynb
+### 14.3.4_test_deteccion_yolo.ipynb
 
 **Descripción:**
 Este cuaderno está diseñado para **probar y demostrar las capacidades de un modelo de detección YOLOv8** previamente entrenado. Permite cargar un modelo (`.pt`), realizar inferencias en imágenes de ejemplo y visualizar los resultados, incluyendo los cuadros delimitadores (bounding boxes) detectados y sus puntuaciones de confianza. Es una herramienta práctica para evaluar el rendimiento del modelo en escenarios reales y observar cómo identifica texto o palabras en nuevas imágenes.
