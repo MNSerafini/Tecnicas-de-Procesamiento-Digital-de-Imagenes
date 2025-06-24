@@ -1,6 +1,13 @@
-# Contenido de la Carpeta: 13_trabajo_practico_integrador
+# INTEGRADOR FINAL
 
 Esta carpeta sirve como el repositorio central para el **Trabajo Práctico Integrador** del curso de Procesamiento Digital de Imágenes. Contiene varios subproyectos dedicados a diferentes aspectos de la detección y reconocimiento de texto y objetos, utilizando diversas arquitecturas y frameworks de Deep Learning.
+
+## Grupo
+Andres Alievi
+
+Martin Serafini
+
+--- 
 
 ## Índice de Contenidos por Subcarpeta
 
@@ -34,20 +41,20 @@ Esta subcarpeta explora la **detección de caracteres y palabras** en imágenes 
 Esta subcarpeta se centra en la **detección de texto para OCR** utilizando la arquitectura de modelos **YOLOv8**. Los cuadernos cubren la preparación de datos y el entrenamiento de modelos para la detección de letras y palabras, así como un cuaderno para probar y demostrar la efectividad de un modelo YOLO entrenado en la localización de texto en imágenes.
 
 **Cuadernos principales:**
-* `014.3.1_deteccion_con_yolo_v1.ipynb`: Detector de texto basado en YOLOv8 (versión inicial).
-* `014.3.2_deteccion_yolo_por_letras.ipynb`: Detección de caracteres individuales con YOLOv8.
-* `014.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb`: Detección de palabras mejorada con YOLOv8.
-* `014.3.4_test_deteccion_yolo.ipynb`: Cuaderno para probar y demostrar modelos de detección YOLOv8.
+* `14.3.1_deteccion_con_yolo_v1.ipynb`: Detector de texto basado en YOLOv8 (versión inicial).
+* `14.3.2_deteccion_yolo_por_letras.ipynb`: Detección de caracteres individuales con YOLOv8.
+* `14.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb`: Detección de palabras mejorada con YOLOv8.
+* `14.3.4_test_deteccion_yolo.ipynb`: Cuaderno para probar y demostrar modelos de detección YOLOv8.
 
-#### **14.4_Detector_TensorFlow_OD_API**
+#### **014.4_Detector_TensorFlow_OD_API**
 
 Esta subcarpeta contiene cuadernos que guían en el uso de la **TensorFlow Object Detection API** para la detección de objetos. Abarca desde la crucial generación de datos en formato `TF Records` hasta el entrenamiento, exportación y prueba de modelos personalizados de detección. También se incluyen los archivos de configuración esenciales para definir la arquitectura y los parámetros de entrenamiento de los modelos.
 
 **Cuadernos principales:**
-* `014.4.1_entrenamiento_tf_od_api.ipynb`: Entrenamiento de modelos con TensorFlow Object Detection API.
-* `014.4.2_generador_tf_records.ipynb`: Generación de TF Records para entrenamiento de modelos.
-* `014.4.3_generador_tf_records_v2.ipynb`: Generación mejorada de TF Records.
-* `014.4.4_test_model_tensorflow_od_api.ipynb`: Cuaderno para probar modelos de detección entrenados con TensorFlow Object Detection API.
+* `14.4.1_entrenamiento_tf_od_api.ipynb`: Entrenamiento de modelos con TensorFlow Object Detection API.
+* `14.4.2_generador_tf_records.ipynb`: Generación de TF Records para entrenamiento de modelos.
+* `14.4.3_generador_tf_records_v2.ipynb`: Generación mejorada de TF Records.
+* `14.4.4_test_model_tensorflow_od_api.ipynb`: Cuaderno para probar modelos de detección entrenados con TensorFlow Object Detection API.
 
 ---
 
