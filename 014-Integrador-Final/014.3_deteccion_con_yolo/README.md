@@ -4,10 +4,10 @@ Esta carpeta contiene una serie de cuadernos de Jupyter (o Colab) que exploran l
 
 ## Índice de Contenidos
 
-* [14.3.1_deteccion_con_yolo_v1](13.3.1_deteccion_con_yolo_v1.ipynb)
-* [14.3.2_deteccion_yolo_por_letras](13.3.2_deteccion_yolo_por_letras.ipynb)
-* [14.3.3_deteccioon_yolo_por_palabras_v2_mejorado](13.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb)
-* [14.3.4_test_deteccion_yolo](13.3.4_test_deteccion_yolo.ipynb)
+* [14.3.1_deteccion_con_yolo_v1](14.3.1_deteccion_con_yolo_v1.ipynb)
+* [14.3.2_deteccion_yolo_por_letras](14.3.2_deteccion_yolo_por_letras.ipynb)
+* [14.3.3_deteccioon_yolo_por_palabras_v2_mejorado](14.3.3_deteccioon_yolo_por_palabras_v2_mejorado.ipynb)
+* [14.3.4_test_deteccion_yolo](14.3.4_test_deteccion_yolo.ipynb)
 
 ---
 
