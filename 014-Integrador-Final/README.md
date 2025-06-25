@@ -3,7 +3,7 @@
 Esta carpeta sirve como el repositorio central para el **Trabajo Práctico Integrador** del curso de Procesamiento Digital de Imágenes. Contiene varios subproyectos dedicados a diferentes aspectos de la detección y reconocimiento de texto y objetos, utilizando diversas arquitecturas y frameworks de Deep Learning.
 
 ## Grupo
-Andres Alievi
+Andres Allievi
 
 Martin Serafini
 
