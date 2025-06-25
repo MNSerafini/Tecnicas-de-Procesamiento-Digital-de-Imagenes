@@ -15,7 +15,7 @@ Martin Serafini
 * [014.2_Detector_TensorFlow_y_Keras](https://github.com/MNSerafini/Tecnicas-de-Procesamiento-Digital-de-Imagenes/tree/main/014-Integrador-Final/014.2_deteccion_con_tensorflow_y_keras)
 * [014.3_Detector_YOLO](https://github.com/MNSerafini/Tecnicas-de-Procesamiento-Digital-de-Imagenes/tree/main/014-Integrador-Final/014.3_deteccion_con_yolo)
 * [014.4_Detector_TensorFlow_Object_Detection_API](https://github.com/MNSerafini/Tecnicas-de-Procesamiento-Digital-de-Imagenes/tree/main/014-Integrador-Final/014.4_tensorflow_object_detection_api)
-
+* [014.5_Herramientas_y_Utilidades](https://github.com/MNSerafini/Tecnicas-de-Procesamiento-Digital-de-Imagenes/tree/main/014-Integrador-Final/014.5_Herramientas_y_Utilidades)
 ---
 
 ### Contenido de las Subcarpetas
