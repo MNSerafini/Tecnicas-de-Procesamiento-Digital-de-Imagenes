@@ -4,7 +4,7 @@ Este cuaderno de Google Colab tiene como objetivo principal servir como una herr
 
 ## Autor
 
-**Andres Alievi**
+**Andres Allievi**
 
 ## Funcionalidades
 
