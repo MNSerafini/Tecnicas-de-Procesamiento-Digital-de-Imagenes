@@ -21,7 +21,7 @@ El objetivo principal de este directorio es proporcionar un conjunto de datos vi
 
 Las imágenes contenidas en este directorio han sido descargadas de diversas fuentes disponibles públicamente en la web.
 
-No se poseen los derechos de autor ni de uso comercial sobre la mayoría de estas imágenes. Su inclusión en este repositorio es estrictamente para **fines educativos, de investigación y de prueba de modelos.**
+No se poseen los derechos de autor ni de uso comercial sobre estas imágenes. Su inclusión en este repositorio es estrictamente para **fines educativos, de investigación y de prueba de modelos.**
 
 Queda bajo la responsabilidad del usuario verificar y cumplir con las licencias y restricciones de uso de cada imagen individual si planea utilizarlas más allá de los fines aquí especificados. Este repositorio no otorga ninguna licencia o permiso sobre las imágenes de terceros.
 
