@@ -12,6 +12,7 @@ Los datasets completos están disponibles públicamente en [Kaggle](https://www.
 * `metadata_ocr_font_labels_dataset.json`: Metadatos detallados del dataset de etiquetas (labels) para el entrenamiento OCR.
 * `metadata_ocr_font_images_dataset.json`: Metadatos detallados del dataset de imágenes (con bounding boxes) para el entrenamiento OCR.
 * `google_fonts_downloader.ipynb`: Script de Google Colab utilizado para la descarga de fuentes de Google Fonts.
-
+* `generador_dataset_palabras.ipynb`: Script de Google Colab para generar un dataset de imagenes con texto.
+  
 ## Instrucciones:
 * Para la ejecucion de google_fonts_downloader.ipynb se requiere generar y cargar en el cuaderno de Colab la GOOGLE_FONTS_API_KEY
